@@ -9,7 +9,7 @@ class TrainOptions(BaseOptions):
         parser.add_argument('--phase', type=str, default='train', help='train, val, test')
         parser.add_argument('--nepoch', type=int, default=30, help='maximum epochs')
         parser.add_argument('--beta1', type=float, default=0.5, help='momentum term of adam')
-        parser.add_argument('--lr', type=float, default=0.00093, help='initial learning rate for optimizer')#0.001
+        parser.add_argument('--lr', type=float, default=0.00095, help='initial learning rate for optimizer')#0.001
         parser.add_argument('--momentum', type=float, default=0.9, help='momentum factor for SGD')
         parser.add_argument('--weight_decay', type=float, default=0.0005, help='momentum factor for optimizer')
         parser.add_argument('--lr_policy', type=str, default='lambda', help='learning rate policy: lambda|step|plateau|cosine')
